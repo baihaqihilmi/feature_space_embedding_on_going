@@ -1,0 +1,22 @@
+data:
+  dir : "D:/Software_dev/ComputerVisionProject/Data/skin_cancer"
+  csv_dir : "../Data/skin_cancer/HAM10000_metadata.csv"
+  ımage_file : "../Data/skin_cancer/HAM10000_images_part_1"
+  ımage_file2 : "../Data/skin_cancer/HAM10000_images_part_1"
+  test_size_ratio : 0.14977533699450823
+  val_size_ratio : 0.09985022466300549
+  train_size_ratio : 0.7503744383424863
+train: 
+  batch_size : 16
+  optimizer : 
+    backbonce:
+      lr : 1e-5
+      weight_decay: 1e-4
+    embeddings : 
+      lr: 1e-5,
+      weight_decay: 1e-4
+  metrics : 
+  learning_rate : 0.001
+  
+
+test :
